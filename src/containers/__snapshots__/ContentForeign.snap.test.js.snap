@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`render correctly should render DisplayCurrency 1`] = `
+<div
+  className="col"
+  style={
+    Object {
+      "border": "1px black solid",
+      "borderRadius": "0.5em",
+      "display": "flex",
+      "flexDirection": "row",
+      "flexWrap": "wrap",
+      "margin": "5px",
+      "padding": "10px",
+    }
+  }
+>
+  <div
+    className="col-10"
+  >
+    <div
+      className="col"
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "row",
+          "flexWrap": "wrap",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <div
+        className="col-6"
+        style={
+          Object {
+            "fontSize": "24px",
+            "fontWeight": "bold",
+          }
+        }
+      />
+      <div
+        className="col-6"
+        style={
+          Object {
+            "fontSize": "24px",
+            "fontWeight": "bold",
+            "textAlign": "right",
+          }
+        }
+      />
+    </div>
+    <div
+      className="col"
+      style={
+        Object {
+          "marginLeft": "20px",
+          "padding": "10px",
+        }
+      }
+    >
+      1 USD = undefined undefined
+    </div>
+  </div>
+  <div
+    className="col"
+    style={
+      Object {
+        "alignItems": "stretch",
+        "alignSelf": "center",
+        "textAlign": "center",
+      }
+    }
+  >
+    <button
+      aria-label={null}
+      className="btn btn-secondary"
+      onClick={[Function]}
+      style={
+        Object {
+          "width": "100%",
+        }
+      }
+      type="button"
+    >
+      Remove
+    </button>
+  </div>
+</div>
+`;
+
+exports[`render correctly should render FormInputCurrency 1`] = `
+<div
+  className="input-group"
+>
+  <div
+    className="input-group-prepend"
+    size="lg"
+  >
+    <span
+      className="input-group-text"
+    >
+      USD
+    </span>
+  </div>
+  <input
+    className="form-control"
+    placeholder="Input Amount"
+    type="number"
+  />
+</div>
+`;
