@@ -48,7 +48,7 @@ class ContentForeign extends React.Component {
                         padding: "10px 30px 30px"
                     }}
                 >
-                    <Label style={{fontSize: "16px", fontWeight: "bold"}}>USD - US Dollar </Label>
+                    <Label style={{fontSize: "16px", fontWeight: "bold"}}>USD - United States Dollar </Label>
                     <FormInputCurrency updateValue={this._onUpdateInitialValue} value={initialValue} />
                 </Col>
                 {activeRates.map((item, index) => {
